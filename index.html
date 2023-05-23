@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Browser</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="browser">
+                    <div class="toolbar">
+                        <button class="btn btn-primary btn-sm right" id="back"><i class="fa fa-arrow-left"></i></button>
+                        <button class="btn btn-primary btn-sm right" id="forward"><i class="fa fa-arrow-right"></i></button>
+                        <button class="btn btn-primary btn-sm right" id="refresh"><i class="fa fa-sync"></i></button>
+                        <input type="text" class="form-control form-control-sm" id="url" placeholder="Enter Your URL">
+                        <button class="btn btn-primary btn-sm" id="go"><i class="fa fa-arrow-right"></i></button>
+                    </div>
+                    <div class="content">
+                        <iframe src="" id="iframe"></iframe>
+                    </div>
+                    <div class="footer">
+                        <footer>
+                            Copyright &copy; 2023 || <a href="https://pabitrabanerjee.newsgoogle.org"><span> Pabitra Banerjee</span></a>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
